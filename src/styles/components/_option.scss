@@ -1,0 +1,77 @@
+.option{
+    display: flex;
+    justify-content: space-between;
+    padding:$m-size $m-size;
+    //color:white;
+    border:2px solid lighten($widget-background-color,10%);
+    animation-name:open;
+    animation-duration: .5s;
+}
+.option__text{
+    color:$main-text-color;
+    font-weight: 800;
+    font-size:$m-size;
+    margin:0;
+    word-break: break-all;
+    justify-content: left;
+    flex-grow: 1;
+   
+}
+.option__desc{
+    color:$header-subtitle-color;
+    font-weight: 100;
+    font-size:$m-size;
+    word-break: break-all;
+    justify-content: left;
+    margin:0;
+    margin-top: $s-size;
+  }
+
+.option__icon{
+    color:$button-background-color;
+  //  margin-left:$s-size;
+    margin-right:$s-size;
+    flex-grow: 1;
+}
+.option__icon-overlay{
+    display:flex;
+    justify-content: space-around;
+    position:absolute;
+    top:45px;
+    left:0px;
+    color:gray;
+}
+.option__icon-overlay-wrapper{
+    position: relative;
+   
+}
+
+.option__img
+{
+    position: relative;
+    float: left;
+    width:  64px;
+    height: 45px;
+    background-position: 50% 50%;
+    background-repeat:   no-repeat;
+    background-size:     cover;
+    padding-right: $s-size;
+   
+}
+
+.dele{
+    animation:del .3s ease-out backwards;
+}
+/* For Firefox */
+
+input[type='number'] {
+    -moz-appearance:textfield;
+}
+
+/* Webkit browsers like Safari and Chrome */
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}

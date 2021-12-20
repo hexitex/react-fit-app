@@ -1,0 +1,15 @@
+input{
+    padding: $s-size;
+    border:none;
+    border-right:solid .1rem darken($button-background-color,10%);
+    border-bottom:solid .1rem darken($button-background-color,10%);
+    border-left:solid .1rem lighten($button-background-color,10%);
+    border-top:solid .1rem lighten($button-background-color,10%);
+
+}
+label{
+    color:#fff;
+}
+textarea{
+    height:4rem;
+}

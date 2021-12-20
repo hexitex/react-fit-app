@@ -1,0 +1,28 @@
+
+.header{
+  background-color:$header-background-color;
+  margin-bottom:$s-size;
+  padding:$m-size 0; 
+  text-align: left;
+}
+
+//BEM block element modifier
+.header__title{
+    font-size: $l-size;
+    margin:0;
+    color:$header-title-color;
+}
+
+.header__subtitle{
+color:$header-subtitle-color;
+font-size: $m-size;
+font-weight: 500;
+margin:0;
+}
+@media (min-width:$desktop-breakpoint){
+  .header{
+      margin-bottom:$m-size;
+    
+  }
+
+  }

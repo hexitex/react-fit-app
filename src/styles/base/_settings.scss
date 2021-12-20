@@ -1,0 +1,26 @@
+//colors
+$widget-background-color:rgb(48, 17, 78);
+$button-background-color:rgb(199, 111, 29);
+$button-link-text-color:#fff;
+$header-background-color:rgb(39, 12, 58);
+$header-title-color:rgb(255, 217, 0);
+$header-subtitle-color:rgb(255, 217, 0);
+$widget-header-background-color:rgb(45, 3, 70);
+$main-text-color:#fff;
+$font-color:rgb(255, 217, 0);
+
+
+$desktop-breakpoint:45rem;
+
+//sizes 
+$s-size:1.2rem;
+$m-size:1.6rem;
+$ml-size:2.4rem;
+$l-size:3.2rem;
+$xl-size:4.8rem;
+
+//autocomplete tester for getting colors not used in app
+.blah
+{
+    color:rgba(91, 189, 0, 0.39)
+}
